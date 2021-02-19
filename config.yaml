@@ -49,10 +49,7 @@ params:
 
 
 
-[deployment]
-
-
-[[deployment.targets]]
-
-name = "mydeployment"
-URL = "http://chiranthans-website-bucket.s3-website-ap-southeast-1.amazonaws.com?region=ap-south-1"
+deployment:
+  targets:
+    name: "mydeployment"  
+    URL: "http://chiranthans-website-bucket.s3-website-ap-southeast-1.amazonaws.com?region=ap-south-1"
