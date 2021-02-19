@@ -28,7 +28,6 @@ params:
   gitBranch: main
   background: images/home-background.jpeg
 
-
   logo:
     main: images/chiras-logo.png
     inverted: images/chiras-logo.png
