@@ -16,49 +16,40 @@ buttons:
   filter: "professional"
 - name: Academic
   filter: "academic"
-- name: Hobby
-  filter: "hobby"
 
 # your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
-
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
+- name: Emergency message classifier using NLP and ML
+  logo: /images/sections/projects/python.png
   role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning","academic"]
+  timeline: "January 2018 - August 2018"
+  summary: Used various NLP techniques to analyse text messages and finding out the helping part in classifying it. Also using this message pre-processing system the dataset building is going on. Currently SVM is used for classification which achieved an efficiency of 77.6%.
+  tags: ["academic", "python","ml"]
 
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
+- name: Credit card fraud detection using Machine Learning
+  logo: /images/sections/projects/python.png
+  role: Developer
+  timeline: "August 2017 – May 2018"
+  summary: Analysed dataset of bank transactions done using credit card, prepared data for processing and decided on essential feature with the help of ML techniques. Trained different models and concluded the best model among them with different parameters and also achieved an efficiency of 96%
+  tags: ["academic", "python","ml"]
 
-- name: Nocode
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
-  #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
+- name: Disease detection in pomegrenate leaves using Image processing
+  logo: /images/sections/projects/matlab.png
+  role: Developer
+  timeline: "January 2018 – May 2018"
+  summary: Applied image processing techniques to enhance various leaves collected, used k means clustering to segment image and finally used multi SVM model classify type of disease and also to find the region being affected. Achieved an efficiency of 95.1%.
+  tags: ["academic","ml","matlab"]
 
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+- name: CodeOps
+  logo: /images/sections/projects/go.png
+  role: Developer
+  timeline: "July 2019 - Present"
+  summary: Tool using GoLang that tells the health status of all the CI/CD tools and other internal tools and also shows available support team and provides option to raise a case
+  tags: ["professional", "goLang"]
+
+- name: CodeCLI
+  logo: /images/sections/projects/go.png
+  role: Developer and Lead
+  timeline: "December 2020 - Present"
+  summary: CLI tool using Golang that helps in provisioning CI/CD pipeline and managing the resources
+  tags: ["professional", "goLang"]
