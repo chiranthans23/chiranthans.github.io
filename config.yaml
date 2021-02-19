@@ -49,7 +49,7 @@ params:
 
 
 
-deployment:
-  targets:
-    name: "mydeployment"  
-    URL: "s3://chiranthans-website-bucket?region=ap-southeast-1"
+# deployment:
+#   targets:
+#     name: "mydeployment"  
+#     URL: "s3://chiranthans-website-bucket?region=ap-southeast-1"
