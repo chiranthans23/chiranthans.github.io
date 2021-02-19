@@ -1,0 +1,47 @@
+baseURL: https://route53-demo.chiranthans23.com
+
+languageCode: en-us
+title: "Chiranthan's portfolio"
+theme: "toha"
+
+# Manage languages
+# For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
+languages:
+  en:
+    languageName: English
+    weight: 1
+
+# Control TOC depth
+markup:
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: false
+
+# Enable global emoji support
+enableEmoji: false
+
+# Site parameters
+params:
+  # GitHub repo URL and branch of your site
+  gitRepo: https://github.com/chiranthans23/personal-website
+  gitBranch: main
+  background: images/home-background.jpeg
+
+
+  logo:
+    main: images/chiras-logo.png
+    inverted: images/chiras-logo.png
+    favicon: images/chiras-logo.png
+ 
+
+  # specify whether you want to write some blog posts or not
+  enableBlogPost: true
+
+  # specify whether you want to show Table of Contents in reading page
+  enableTOC: true
+
+  # Provide newsletter configuration. This feature hasn't been implemented yet.
+  # Currently, you can just hide it from the footer.
+  newsletter:
+    enable: true
