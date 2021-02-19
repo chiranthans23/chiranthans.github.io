@@ -1,4 +1,4 @@
-baseURL: https://route53-demo.chiranthans23.com
+baseURL: http://chiranthans-website-bucket.s3-website-ap-southeast-1.amazonaws.com
 
 languageCode: en-us
 title: "Chiranthan's portfolio"
@@ -45,3 +45,14 @@ params:
   # Currently, you can just hide it from the footer.
   newsletter:
     enable: true
+
+
+
+
+[deployment]
+
+
+[[deployment.targets]]
+
+name = "mydeployment"
+URL = "http://chiranthans-website-bucket.s3-website-ap-southeast-1.amazonaws.com?region=ap-south-1"
