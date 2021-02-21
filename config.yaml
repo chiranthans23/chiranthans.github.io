@@ -26,7 +26,7 @@ params:
   # GitHub repo URL and branch of your site
   gitRepo: https://github.com/chiranthans23/personal-website
   gitBranch: main
-  background: images/home-background.jpeg
+  background: images/default-background.jpg
 
   logo:
     main: images/chiras-logo.png
