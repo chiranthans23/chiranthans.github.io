@@ -24,7 +24,7 @@ enableEmoji: false
 # Site parameters
 params:
   # GitHub repo URL and branch of your site
-  gitRepo: https://github.com/chiranthans23/personal-website
+  gitRepo: https://github.com/chiranthans23/chiranthans23.github.io
   gitBranch: master
   background: images/sections/site/home-background.jpeg
 
