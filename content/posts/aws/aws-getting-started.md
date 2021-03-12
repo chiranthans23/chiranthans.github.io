@@ -1,6 +1,6 @@
 ---
 title: "Getting Started with AWS"
-date: 2020-06-08T06:00:20+06:00
+date: 2021-03-22T00:00:00Z
 hero: /images/posts/aws/aws.png
 menu:
   sidebar:
