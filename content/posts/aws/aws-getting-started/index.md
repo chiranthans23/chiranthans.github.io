@@ -1,7 +1,6 @@
 ---
 title: "Getting Started with AWS"
-date: 2021-03-22T00:00:00Z
-hero: /images/posts/aws/aws.png
+date: "2021-03-12"
 menu:
   sidebar:
     name: Getting Started with AWS

@@ -1,7 +1,6 @@
 ---
 title: "Working with AWS"
-hero: /images/aws/aws.png
-date: 2021-03-22T00:00:00Z
+date: "2021-03-12"
 menu:
   sidebar:
     name: Working with AWS
