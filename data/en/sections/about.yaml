@@ -45,4 +45,7 @@ softSkills:
   color: yellow
 - name: Creativity
   percentage: 95
-  collor: red
+  color: "#FF0000"
+- name: Hardwork
+  percentage: 95
+  color: "#27CD32"
