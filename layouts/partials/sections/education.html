@@ -3,6 +3,35 @@
 {{ $sectionID = .section.id }}
 {{ end }}
 
+<script>
+
+
+// Show more rows in the taken courses table
+function showMoreCoursesCorrected(elem) {
+
+// find the courses
+let courses = elem.parentNode.getElementsByClassName("course");
+if (courses == null) {
+  return
+}
+
+// toggle hidden-course class from the third elements
+for (var i = 0; i < courses.length; i++) {
+  if (i > 1 && courses[i].classList !== null) {
+    courses[i].classList.toggle("hidden-course");
+  }
+}
+
+// toggle the button text
+let btnText = elem.innerText;
+if (btnText == "Show More" || btnText == "See More") {
+  elem.innerText = "Show Less";
+} else if (btnText == "Show Less") {
+  elem.innerText = "Show More";
+}
+}
+
+</script>
 <div class="container-fluid anchor pb-5 education-section" id="{{ $sectionID }}">
     {{ if not (.section.hideTitle) }}
     <h1 class="text-center">{{ .section.name }}</h1>
@@ -78,7 +107,7 @@
                                 {{ end }}
                                 {{ if gt (len .takenCourses.courses ) 2 }}
                                     <button type="button" class="btn btn-link show-more-btn pt-0 {{ if .takenCourses.showGrades }}ml-1{{ else }}ml-2{{ end }}"
-                                    onclick="showMoreCourses(this);">{{ i18n "see_more"}}</button>
+                                    onclick="showMoreCoursesCorrected(this);">{{ i18n "see_more"}}</button>
                                 {{ end }}
                             </div>
                             {{ end }}
