@@ -26,7 +26,7 @@ Firstly, few unnecessary columns such as the post_id, sentence_range are removed
 > Code: pre-processor.ipynb
 
 ## Model evaluation
-Multiple models were used for evaluation - XGBoost, SVM, Random Forest, LightGBM, GBM, etc. `cross_value_score` and 10-fold was used for evaluating the models. This roughly gave an idea of the weak and strong models. For this section, I took help from [this](https://www.kaggle.com/sohommajumder21/bert-tokenizer-with-9-models-nlp-stress-analysis) notebook. 
+Multiple models were used for evaluation - XGBoost, SVM, Random Forest, LightGBM, GBM, etc. `cross_value_score` and 10-fold was used for evaluating the models. This roughly gave an idea of the weak and strong models. Deep learning models were not used mainly because of the small amount of data that's available. For this section, I took help from [this](https://www.kaggle.com/sohommajumder21/bert-tokenizer-with-9-models-nlp-stress-analysis) notebook. 
 > Code: model.ipynb
 
 ## Hyperparameter optimization
