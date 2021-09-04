@@ -23,21 +23,21 @@ projects:
   logo: /images/sections/projects/python.png
   role: Developer
   timeline: "January 2018 - August 2018"
-  summary: Used various NLP techniques to analyse text messages and finding out the helping part in classifying it. Also using this message pre-processing system the dataset building is going on. Currently SVM is used for classification which achieved an efficiency of 77.6%.
+  summary: Few thousand Whatsapp messages were used to form a dataset, and was cleaned the dataset to be text-only. Used Tokenisation, POS tagging, and a customized Stemmer to further improve the dataset. A bag of emergency words was formulated, and important features were selected. The undersampled data from the dataset was trained on SVM classifier.
   tags: ["academic", "python","ml"]
 
 - name: Credit card fraud detection using Machine Learning
   logo: /images/sections/projects/python.png
   role: Developer
   timeline: "August 2017 – May 2018"
-  summary: Analysed dataset of bank transactions done using credit card, prepared data for processing and decided on essential feature with the help of ML techniques. Trained different models and concluded the best model among them with different parameters and also achieved an efficiency of 96%
+  summary: Used a dataset of bank transactions. Normalized and Feature Engineered the dataset. The undersampled dataset was trained on multiple classifiers and evaluated the model using various statistical analysis parameters. Further, Reinforcement learning was used to track transactions in real-time. Finally, ExtraTrees gave the best accuracy and recall - 97.4% and 93.8%.
   tags: ["academic", "python","ml"]
 
 - name: Disease detection in pomegrenate leaves using Image processing
   logo: /images/sections/projects/matlab.png
   role: Developer
   timeline: "January 2018 – May 2018"
-  summary: Applied image processing techniques to enhance various leaves collected, used k means clustering to segment image and finally used multi SVM model classify type of disease and also to find the region being affected. Achieved an efficiency of 95.1%.
+  summary: Pomegranate leaves images belonging to five categories of diseases were used to form a dataset. Used Image smoothing, Image enhancement, and Histogram equalization to pre-process images in MATLAB. Using K-means clustering, images were segmented. Mean, S.D, Smoothness, and do other properties were used as features. Classification of the image was done using Multi SVM classifier with 94.1% accuracy.
   tags: ["academic","ml","matlab"]
 
 - name: CodeOps
