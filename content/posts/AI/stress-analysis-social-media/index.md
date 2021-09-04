@@ -9,10 +9,6 @@ menu:
     weight: 10
 ---
 
-# Stress analysis on Social media
-
-
-[TOC]
 # Resources
 Code: https://github.com/chiranthans23/stress-analysis-social-media
 Train and test data: dreaddit-train.csv, dreaddit-test.csv
@@ -41,7 +37,7 @@ Models XGBoost, LGBM, and GBM which gave almost same results were optimized. A b
 
 ## Final model
 The best parameters from the optimization step still resulted in almost same overall score of all the above models. Hence, a stable model was built by ensembling the best XGBoost, LGBM, GBM models using Voting classifier. This resulted in F1 score of around 0.77.
-
+> Code: main.ipynb
 
 
 
