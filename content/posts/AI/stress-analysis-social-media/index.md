@@ -10,9 +10,9 @@ menu:
 ---
 
 # Resources
-Code: https://github.com/chiranthans23/stress-analysis-social-media
-Train and test data: dreaddit-train.csv, dreaddit-test.csv
-EDA report: report.html
+- Code: https://github.com/chiranthans23/stress-analysis-social-media
+- Train and test data: dreaddit-train.csv, dreaddit-test.csv
+- EDA report: report.html
 
 ## Introduction
 This is a work on [Dreaddit dataset](https://arxiv.org/abs/1911.00133?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%253A+arxiv%252FQSXk+%2528ExcitingAds%2521+cs+updates+on+arXiv.org%2529) taken from one of latest datasets on [Kaggle](https://www.kaggle.com/ruchi798/stress-analysis-in-social-media) bwhich is created using data from 5 different Reddit communities. This is a slightly different problem as the length of the posts are larger than the usual tweets. Additionally, the data available for training is also not quite huge.
