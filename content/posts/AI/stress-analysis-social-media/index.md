@@ -31,10 +31,8 @@ Multiple models were used for evaluation - XGBoost, SVM, Random Forest, LightGBM
 
 ## Hyperparameter optimization
 Models XGBoost, LGBM, and GBM which gave almost same results were optimized. A beautiful framework [Optuna](https://optuna.org/) was used for this. I have used 100 trials for optimization and best parameters of each model is captured in different files. This is a time-consuming process, so using GPU will help in speeding up the process.
-> Code: xgboost_optimization.ipynb
-> Code: lgbm_optimization.ipynb
-> Code: gbm_optimization.ipynb
-
+> Code: xgboost_optimization.ipynb, lgbm_optimization.ipynb, gbm_optimization.ipynb
+ 
 ## Final model
 The best parameters from the optimization step still resulted in almost same overall score of all the above models. Hence, a stable model was built by ensembling the best XGBoost, LGBM, GBM models using Voting classifier. This resulted in F1 score of around 0.77.
 > Code: main.ipynb
