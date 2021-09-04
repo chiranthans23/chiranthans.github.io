@@ -44,10 +44,3 @@ params:
   # Currently, you can just hide it from the footer.
   newsletter:
     enable: false
-
-
-
-# deployment:
-#   targets:
-#     name: "mydeployment"  
-#     URL: "s3://chiranthans-website-bucket?region=ap-southeast-1"
