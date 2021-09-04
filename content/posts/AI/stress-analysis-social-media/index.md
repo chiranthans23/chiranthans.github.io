@@ -22,7 +22,7 @@ This work doesn't really have a extensive EDA, but just looks at the dataset - c
 > Code: pre-processor.ipynb
 
 ## Pre-processing
-Firstly, few uncessary columns such as the post_id, sentence_range is removed. Second, the subreddit category - a categorical data - is *OneHotEncoded*. Helper functions are run on the text of posts to clean them. *BERT base uncased* tokenizer from :hugging_face: is used to tokenize the text data. Finally the pre-processed data is written to file.
+Firstly, few uncessary columns such as the post_id, sentence_range is removed. Second, the subreddit category - a categorical data - is *OneHotEncoded*. Helper functions are run on the text of posts to clean them. *BERT base uncased* tokenizer from 🤗 is used to tokenize the text data. Finally the pre-processed data is written to file.
 > Code: pre-processor.ipynb
 
 ## Model evaluation
