@@ -17,8 +17,13 @@ experiences:
     # company overview
     overview: Cisco delivers innovative software-defined networking, cloud, and security solutions to help transform business, empowering it for an inclusive future
   positions:
+  - designation: Software Engineer II
+    start: May 2021
+    responsibilities:
+    - Developer of a tool to automate the release process in Cisco IT. Used Argo workflow automation tool and GoLang
   - designation: Software Engineer
     start: July 2019
+    end: April 2021
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
@@ -26,7 +31,7 @@ experiences:
     - Lead and Developer of a CLI tool using Golang that helps in provisioning CI/CD pipeline and managing the resources
     - Developer of a tool using GoLang that tells the health status of all the CI/CD tools and other internal tools, shows available support team and provides option to raise a case
     - Worked as a Developer on custom Jenkins Groovy libraries that helps in Jenkins build of a software
-    - Develoepr of automation script using Python that assigns support cases raised to available support based on Priority queue logic
+    - Developer of automation script using Python that assigns support cases raised to available support based on Priority queue logic
 
   - designation: Spring Intern
     start: January 2019
