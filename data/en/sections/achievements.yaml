@@ -12,11 +12,11 @@ section:
 # Your achievements achievements
 achievements:
 - title: Deep Learning Specialization
-  image: /images/sections/achievements/dl.pdf
+  image: /images/sections/achievements/dl.jpg
   summary: Completed Deep Learning Specialization offerred by Deeplearning.ai.
 - title: Natural Language Processing Specialization
-  image: /images/sections/achievements/nlp.pdf
+  image: /images/sections/achievements/nlp.jpg
   summary: Completed Natural Language Processing Specialization offerred by Deeplearning.ai.
 - title: Presidential term completion
-  image: /images/sections/achievements/rotaract_rbb_president.pdf
+  image: /images/sections/achievements/rotaract_rbb_president.jpg
   summary: Completed term as President of Rotaract Bangalore Basaveshwaranagar for 2020-21.
