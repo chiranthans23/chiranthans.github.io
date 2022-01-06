@@ -53,3 +53,10 @@ projects:
   timeline: "December 2020 - Present"
   summary: CLI tool using Golang that helps in provisioning CI/CD pipeline and managing the resources
   tags: ["professional", "goLang"]
+
+- name: CodeRelease
+  logo: /images/sections/projects/go.png
+  role: Developer and Lead
+  timeline: "May 2021 - Present"
+  summary: Release orchestration to deploy software to different runtimes. Used GoLang, Argo for the backend.
+  tags: ["professional", "goLang"]
