@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation: Software Engineer II
 # your company information
 company:
   name: Cisco
@@ -18,7 +18,7 @@ company:
 resume: "files/Resume.pdf"
 
 # a summary about you
-summary: 'I am very interested in problem solving. Currently working as a Go programmer along with good hold on Python, Groovy and Docker. Always open and excited to gain new skills'
+summary: 'I am AI and NLP research enthusiast and also very interested in problem solving. Currently working as a Go programmer along with good hold on Python, Groovy and Docker. Always open and excited to gain new skills'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.

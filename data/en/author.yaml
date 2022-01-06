@@ -1,6 +1,6 @@
 # some information about you
-name: "Chiranthan S"
-nickname: "Chiranthan S"
+name: "Chiranthan Sridhar"
+nickname: "Chiranthan Sridhar"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, I am"
 image: "images/sections/site/chiras-picture.png"
@@ -12,7 +12,8 @@ contactInfo:
 
 # some summary about what you do
 summary:
-  - I am a Software Developer
-  - Working in Cisco from the past 2 years
-  - I work with GoLang
+  - I am AI and NLP Research enthusiast
+  - I work as a Software Developer
+  - Working in Cisco from the past 3 years
+  - I mainly work with GoLang
   - I love problem solving
