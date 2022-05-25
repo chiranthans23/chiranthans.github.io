@@ -16,9 +16,32 @@ buttons:
   filter: "professional"
 - name: Academic
   filter: "academic"
+- name: Personal
+  filter: "personal"
 
 # your projects
 projects:
+- name: Essay Feedback Prize
+  logo: /images/sections/projects/pytorchlt.png
+  role: Developer
+  timeline: "December 2021 - March 2022"
+  summary: This was a Named Entity Recognition competition hosted on Kaggle by George State University. I used Pytorch Lightning ⚡ framework along with DeepSpeed plugin - fp optim, scheduler, etc.. - to fasten the training framework. Trained on BigBird, Longformer, Ensemble of them and monitored using Wandb. Two Longformers ensemble was submitted.
+  tags: ["personal", "python","ml"]
+
+- name: Jigsaw Severity Comments
+  logo: /images/sections/projects/pytorchlt.png
+  role: Developer
+  timeline: "November 2021 - February 2022"
+  summary: Jigsaw Severity Comments was a competition hosted by the Jigsaw team on Kaggle. I used Pytorch Lightning ⚡ framework and Wandb for training. Trained basic DL models like LSTM, Bi-LSTM. Used Transformers Roberta, Bert, HateBert, Bert-CNN. Used 5-folds CV.  Submitted a Roberta ensemble model for the competition.
+  tags: ["personal", "python","ml"]
+
+- name: Stress Analysis on Social Media
+  logo: /images/sections/projects/python.png
+  role: Developer
+  timeline: "July 2021 - September 2021"
+  summary: Used Dreddit dataset having social media conversations from Reddit. Auto EDA using Pandas profiling. Used BERT tokenizer from Hugging face for tokenizing text data. Various models were used and finally GBM, XGBoost and LGBM were used and they almost gave same scores. Optuna is used to tune the models. Weighted Voting classifier is implemented on above models.
+  tags: ["personal", "python","ml"]
+  
 - name: Emergency message classifier using NLP and ML
   logo: /images/sections/projects/python.png
   role: Developer

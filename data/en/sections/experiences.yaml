@@ -20,7 +20,8 @@ experiences:
   - designation: Software Engineer II
     start: May 2021
     responsibilities:
-    - Developer of a tool to automate the release process in Cisco IT. Used Argo workflow automation tool and GoLang
+    - Leading Security domain in the team. Focussing on onboarding Open Source Security(OSS) scanning tool and providing experience to easily onboard software and running the scan on them. Additionally, working on improving the security metrics dashboard to accommodate all the necessary security metrics and provide insightful information to users.
+    - Built a release orchestrator tool on top of deployment orchestrator tools such as Spinnaker and uDeploy to automate the release process and to provide various quality and release metrics during the process. GoLang, Argo, Docker, and Kubernetes were used.
   - designation: Software Engineer
     start: July 2019
     end: April 2021
