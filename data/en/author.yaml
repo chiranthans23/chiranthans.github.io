@@ -3,7 +3,7 @@ name: "Chiranthan Sridhar"
 nickname: "Chiranthan Sridhar"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, I am"
-image: "images/sections/site/chiras-picture.png"
+image: "images/sections/site/chiras-picture.jpg"
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "chiranthans23@gmail.com"
