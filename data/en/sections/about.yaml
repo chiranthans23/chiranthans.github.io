@@ -8,17 +8,17 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Engineer II
+designation: MSCS Student
 # your company information
 company:
-  name: Cisco
-  url: "https://www.cisco.com"
+  name: University of Colorado Boulder
+  url: "https://www.colorado.edu/"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/Resume.pdf"
 
 # a summary about you
-summary: 'I am AI and NLP research enthusiast and also very interested in problem solving. Currently working as a Go programmer along with good hold on Python, Groovy and Docker. Always open and excited to gain new skills'
+summary: 'I am AI and NLP research enthusiast and also very interested in problem solving. Proficient in Go, Python, Groovy and Docker. Always open and excited to gain new skills'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
