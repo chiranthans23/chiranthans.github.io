@@ -11,6 +11,18 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: MathWorks
+    url: "https://www.mathworks.com/"
+    location: Natick
+    # company overview
+    overview: MathWorks specializes in building mathematical computing software. Its major products include MATLAB and Simulink, which support data analysis and simulation.
+  positions:
+  - designation: Software Engineer Intern
+    start: May 2023
+    responsibilities:
+    - I worked on developing methodology to Machine Translate tagged documents having custom tags and terminology to seven languages
+
+- company:
     name: Cisco
     url: "https://www.cisco.com"
     location: Bangalore

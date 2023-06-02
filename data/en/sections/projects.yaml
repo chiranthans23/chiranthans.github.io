@@ -35,34 +35,7 @@ projects:
   summary: Jigsaw Severity Comments was a competition hosted by the Jigsaw team on Kaggle. I used Pytorch Lightning ⚡ framework and Wandb for training. Trained basic DL models like LSTM, Bi-LSTM. Used Transformers Roberta, Bert, HateBert, Bert-CNN. Used 5-folds CV.  Submitted a Roberta ensemble model for the competition.
   tags: ["personal", "python","ml"]
 
-- name: Stress Analysis on Social Media
-  logo: /images/sections/projects/python.png
-  role: Developer
-  timeline: "July 2021 - September 2021"
-  summary: Used Dreddit dataset having social media conversations from Reddit. Auto EDA using Pandas profiling. Used BERT tokenizer from Hugging face for tokenizing text data. Various models were used and finally GBM, XGBoost and LGBM were used and they almost gave same scores. Optuna is used to tune the models. Weighted Voting classifier is implemented on above models.
-  tags: ["personal", "python","ml"]
   
-- name: Emergency message classifier using NLP and ML
-  logo: /images/sections/projects/python.png
-  role: Developer
-  timeline: "January 2018 - August 2018"
-  summary: Few thousand Whatsapp messages were used to form a dataset, and was cleaned the dataset to be text-only. Used Tokenisation, POS tagging, and a customized Stemmer to further improve the dataset. A bag of emergency words was formulated, and important features were selected. The undersampled data from the dataset was trained on SVM classifier.
-  tags: ["academic", "python","ml"]
-
-- name: Credit card fraud detection using Machine Learning
-  logo: /images/sections/projects/python.png
-  role: Developer
-  timeline: "August 2017 – May 2018"
-  summary: Used a dataset of bank transactions. Normalized and Feature Engineered the dataset. The undersampled dataset was trained on multiple classifiers and evaluated the model using various statistical analysis parameters. Further, Reinforcement learning was used to track transactions in real-time. Finally, ExtraTrees gave the best accuracy and recall - 97.4% and 93.8%.
-  tags: ["academic", "python","ml"]
-
-- name: Disease detection in pomegrenate leaves using Image processing
-  logo: /images/sections/projects/matlab.png
-  role: Developer
-  timeline: "January 2018 – May 2018"
-  summary: Pomegranate leaves images belonging to five categories of diseases were used to form a dataset. Used Image smoothing, Image enhancement, and Histogram equalization to pre-process images in MATLAB. Using K-means clustering, images were segmented. Mean, S.D, Smoothness, and do other properties were used as features. Classification of the image was done using Multi SVM classifier with 94.1% accuracy.
-  tags: ["academic","ml","matlab"]
-
 - name: CodeOps
   logo: /images/sections/projects/go.png
   role: Developer
